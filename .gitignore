@@ -31,3 +31,6 @@
 *.xdy
 *.tdo
 TSW*
+cite.py
+scholar.py
+cv.py
