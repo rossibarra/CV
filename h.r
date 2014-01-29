@@ -2,4 +2,4 @@
 
 library(scholar)
 bob<-get_profile("5SzRq1oAAAAJ")
-paste("H-Index ", bob$h_index, " \\small{(", bob$total_cites, " citations as of ", date(), ")}",sep="")
+paste("\\small{H-Index ", bob$h_index, " (", bob$total_cites, " citations as of ", date(), ")}",sep="")
