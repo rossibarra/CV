@@ -14,7 +14,8 @@ while(<CITES>){
 	chomp;
 	$_=~m/(\d+,*\d*)\s(\d+)/;
 	my $id=$1; my $cites=$2;
-	$cites{$id}=$cites;
+	my @ids=split(/,/,$id);
+	$cites{$_}=$cites foreach @ids;
 }
 close CITES;
 
