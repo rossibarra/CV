@@ -12,7 +12,7 @@ open CITES, "<tempcites.txt";
 my %cites=();
 while(<CITES>){
 	chomp;
-	$_=~m/(\d+,*\d*)\s(\d+)/;
+	$_=~m/(\S+)\s(\d+)/;
 	my $id=$1; my $cites=$2;
 	my @ids=split(/,/,$id);
 	$cites{$_}=$cites foreach @ids;
@@ -26,7 +26,7 @@ while(<FILE>){
 		print CV "$h\n"; 
 	} 
 	elsif( $_=~m/CITES/ ){
-		$_=~m/CITES:(\d+)/;
+		$_=~m/CITES:(\S+)/;
 		my $tempid=$1; 
 		my $citecount=0;
 		foreach(keys(%cites)){ if( $_ ~~ $tempid){ $citecount=$cites{$tempid}; }}
