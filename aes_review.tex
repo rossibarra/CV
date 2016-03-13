@@ -1,0 +1,137 @@
+%Project Narrative
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[]{natbib}
+\bibpunct[; ]{[}{]}{,}{n}{}{;} 
+\bibliographystyle{unsrtnat}
+\setcitestyle{plain}
+\usepackage{color}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage[capbesideposition={top,outside},facing=yes,capbesidesep=quad]{floatrow}
+
+\usepackage{parskip}
+
+\begin{document}
+
+\title{\vspace{-5ex}Candidate Statement\vspace{-4ex}}
+\author{Jeffrey Ross-Ibarra}
+\date{}
+\maketitle
+
+\section*{Research}
+
+My research program applies population genomic approaches to investigate how plants evolve.
+Agricultural plants provide a particularly excellent system for basic discovery, with their rich history of genetic research, ample modern genomic resources, and the ability to sample or replicate genotypes across a wide array of environments.
+Among crop plants, maize provides perhaps the best opportunity for basic research and discovery.
+In addition to its status as the country's most valuable crop, maize is also one of the oldest model organisms, and its rich phenotypic and genetic diversity have enabled a number of basic scientific discoveries, from hybrid vigor \citep{shull1908composition} to the relationship between crossing over and recombination \citep{creighton1931correlation}, meiotic drive \citep{rhoades1942preferential}, and transposable elements \citep{mcclintock1950origin}. 
+Maize continues to be an important model in the genomics era \citep{nannas2015genetic}, and the publicly available resources are unparalleled among other crops: genome sequences and whole-genome genotypes number in the tens of thousands, and association mapping studies now approach scales rarely seen outside of biomedical studies \citep[e.g.][]{buckler2009genetic,peiffer2014genetic,Romay2013,Hearne2015}.
+
+Maize is particularly well-suited as a model to study plant evolution.
+Domestication and modern breeding can be seen as examples of experimental evolution, and both population genomic \citep{hufford2012comparative} and archaeological data \citep{purugganan2011archaeological} suggest that the rate and magnitude of adaptation under artificial selection is likely similar to that in natural populations.
+While maize has a large genome compared to many other model plants --- the maize reference is 2.3Gb \citep{schnable2009b73} ---  it is in fact close to the median for flowering plants \citep{leitch2013genome}, and thus an ideal organism in which to study transposable elements and other  structural variation common in complex plant genomes.  
+Finally, the wild relatives of maize, collectively referred to as teosintes, inhabit a diverse array of environments and include both endangered species and taxa with large, stable, randomly-mating populations \citep{hufford2012teosinte}.
+Because these species are closely related, we can easily exploit genomic resources developed in maize in these wild taxa as well \citep[e.g.][]{pyhajarvi2013complex,fang2012megabase}.
+Though there are numerous efforts in maize to accelerate crop breeding, there are surprisingly few efforts to take advantage of these resources to study maize evolution. 
+My group has taken the lead in evolutionary analyses of maize and its relatives; below I describe current and planned research towards understanding plant adaptation and genome evolution.  
+
+\section*{Experimental evolution} % 406
+
+Plant domestication and modern breeding represent examples of experimentally evolved populations. Studying these populations provides an opportunity to understand not only the genetic basis of evolutionary change but also how the processes of evolution interact to shape modern genetic and phenotypic diversity.
+
+We have worked to understand selection during domestication, documenting its polygenic nature, the contributions of regulatory variation \citep{hufford2012comparative,swanson2012reshaping}, and the importance of processes such as convergent molecular evolution \citep{wills2013many} and selection on standing genetic variation \citep{wills2013many, studer2011identification, vann2015natural}. 
+Our detailed analyses of  inbred lines have revealed little evidence for strong selection during modern maize breeding, instead highlighting the effect of small population sizes in partitioning diversity into distinct populations of increasingly narrow ancestry \citep{van2012historical}.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=.45\textwidth]{figs/distanceToGene_WithSignificance_Folded2_manuscript.png} \includegraphics[width=.45\textwidth]{figs/distanceToGene_WithSignificance_Singletons_Downsampled_threeLines_manuscript.png}
+\caption{Relative pairwise nucleotide diversity (A) and singleton diversity (B) as a function of distance to the nearest gene. Insets show the same pattern in the region closest to the gene.
+\label{fig:purify}}
+\end{figure*}
+
+Our current work on domestication focuses on how demographic change interacts with selection to shape genetic and phenotypic diversity.
+Maize underwent a demographic bottleneck during domestication, reducing its effective population size and thus the efficacy of purifying selection.
+Purifying selection in teosinte is thus stronger due to its larger effective population size, resulting in both a deeper and wider valley of diversity around conserved genes (Figure \ref{fig:purify}A).
+But maize population size grew quickly after domestication, eventually exceeding that of teosinte.
+New mutations in maize are thus subject to stronger selection than in teosinte, a shift reflected in patterns of variation in recent low frequency variants such as singleton polymorphisms (Figure \ref{fig:purify}B).   
+Population demographic change can also impact the effect size, number, and dominance of loci underlying phenotypic traits \citep{lohmueller2014impact,gazave2013population}.
+Our future work will utilize data from large-scale association mapping studies, coupled with population genomic inference of demographic change and selection, to study how the process of domestication may have shaped the genetic architecture of phenotypic traits.
+
+Building on our work highlighting the importance of deleterious alleles in phenotypic variation \citep{mezmouk2014pattern}, we have used experimentally evolved populations to track haplotype frequencies over time and assess the genetic basis of gain in hybrid yield. 
+Our recent analysis finds little overlap in selected haplotypes between two populations bred for increasing hybrid yield, consistent with a model for complementation of deleterious variants brought to high frequency by hitchhiking  \citep{gerke2013genomic}. 
+Current efforts include work to build a pedigree of more than 4,000 maize lines with which to extend these haplotype analyses across many populations.  
+
+\section*{Local adaptation} %369
+% architecture, biotic interactions, climate, introgression
+
+Maize spread rapidly after domestication, adapting to a wide range of environments. 
+Today maize is grown across a broader geographic breadth than any of the world's other staple crops \citep{hake2015genetic}, from sea level to altitudes of $>4,000$m and from deserts to near-flooded conditions.
+The wild relatives of maize have also adapted to environments varying widely in elevation, temperature, and moisture availability. 
+Our previous work has shown that adaptation in teosinte is often restricted to discrete local populations and has often made use of regulatory variation \citep{pyhajarvi2013complex}.
+We also find evidence that inversion polymorphisms are common and associated with environmental gradients and phenotypic variation \cite{pyhajarvi2013complex,fang2012megabase}.
+Because maize --- and likely other complex plant genomes --- can apparently circumvent cytological problems associated with large-scale structure variation \citep{maguire1966relationship}, we suspect such variants are common in plant genomes.
+Work is underway both to characterize the genomic and phenotypic effects of individual inversions and to more broadly characterize the scope of structural variation within natural populations using both resequencing and \emph{de novo} genome assembly.
+
+In many instances of local adaptation, independent populations have converged on similar phenotypic adaptations.  
+We have worked with maize populations adapted to high elevation environments in Mexico and South America, seeking to understand whether convergent phenotypic evolution is associated with convergent changes at the molecular level.
+Our previous efforts pointed to a key role for adaptive introgression from wild teosinte in enabling maize to adapt to the mountains of central Mexico \citep{hufford2013genomic}, but in spite of similar phenotypes we find no overlap between Mexican and Andean populations in genes showing evidence of selection \citep{Takuno15062015}.
+Our analyses further suggest that most local adaptation in these populations has not been mutation limited, but that instead stochastic differences in local founding populations, each with abundant standing genetic variation, likely explain the lack of convergent genetics.
+
+Our current work on local adaptation builds on these results, focusing on detailed characterization of individual populations of both maize and teosinte. 
+We are making use of deep sequencing of the genome and epigenome of a number of individuals, combined  with common garden evaluation of progeny, to identify the loci and processes involved in adaptation at an extremely local scale and ask how these differ from processes operating species-wide. 
+
+%{
+%\color{red}  
+%\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
+%STOP HERE \\
+%\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
+%}
+
+\section*{Genome evolution} %345
+
+In addition to discerning the genetic basis of phenotypic evolution, we are interested in  understanding the processes that shape evolution of the genome itself.
+We have shown that differences in deletion bias can effect large changes in genome size over phylogenetic time scales \citep{tenaillon2011genome} and documented extensive variation in copy number across diverse maize and teosinte \citep{gore2009first, chia2012maize}.
+Current work characterizing copy number variation in a single wild population of teosinte has revealed problems with population genetic methods that are unable to account for biologically missing data.
+Statistics such as Tajima's D, for example, show a strong correlations with the frequency of deletions,  potentially leading to false interpretations of selection or demographic change. % (Figure \ref{fig:tajd}).
+
+%\begin{figure}[!hb]
+%\fcapside
+%  {\caption{Impact of copy number variation (CNV) frequency on estimates of Tajima's D, a measure of the allele freqeuncy spectrum. \label{fig:tajd}} }
+%  {\includegraphics[width=0.7\linewidth]{figs/td_cnv.pdf}
+%%}
+%\end{figure}
+
+To better understand processes shaping genome evolution across populations, we are currently working to model genome size as a phenotype. 
+We have developed methods to quantify the abundance of different repetitive fractions of the genome and test for selection on repeat abundance. 
+Our initial results find evidence that overall genome size (Figure \ref{fig:gsize}A) and heterochromatic knob abundance (Figure \ref{fig:gsize}B) both are under selection for smaller genomes across altitudinal gradients, perhaps as a means of accelerating development and flowering.
+
+While transposable elements (TEs) as a group do not appear to be under selection for genome size variation, they nonetheless make up the majority of most flowering plant genomes. 
+We have previously shown important functional consequences of individual TE insertions on phenotype and gene expression \cite{studer2011identification,makarevitch2015transposable}, but we are just beginning to understand their genome-wide significance.
+Methods developed in other model organisms invariably fail to detect TE insertions in complex genomes such as maize, but we have developed approaches that take advantage of our \emph{de novo} hand-curated annotation of TEs to accurately identify insertions in high-coverage resequencing data.
+TE polymorphism is abundant: individual lines contain hundreds of thousands of new insertions, including thousands of insertions into protein-coding genes.
+Analysis across a small set of lines has already revealed the impact of new insertions on gene expression and strong differences in insertion preference, methylation state, and allele frequency among different TE families.
+We aim to expand these analyses to include population genetic methods to identify selection on individual insertions, thus enabling us to better understand the role TEs play in driving genomic change and potentially adaptation in both natural and domesticated populations.
+
+
+\newpage
+\bibliography{jri.bib}
+\end{document}
+\documentclass[]{article}
+
+\begin{document}
+
+\title{Title}
+\author{Author}
+\date{Today}
+\maketitle
+
+Content
+
+\end{document}
