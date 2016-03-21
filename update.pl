@@ -15,6 +15,7 @@ while(<CITES>){
 	$_=~m/(\S+)\s(\d+)/;
 	my $id=$1; my $cites=$2;
 	$cites{$id}=$cites;
+	print STDERR "$id\t$cites{$id}\n";
 }
 close CITES;
 
