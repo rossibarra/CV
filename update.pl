@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $h=`rscript --vanilla  h.r`; 
+my $h=`rscript h.r`; 
 $h=~s/\\//; 
 $h=~s/\[1\]//;
 $h=~s/\"//g;  
