@@ -1,0 +1,215 @@
+## Research 
+
+#### New Grants (4)
+
+-   NSF: “The Evolutionary Genetics of Pollen-Pistil Incompatibility and
+    Reproductive Isolation in *Zea mays*” (CoPI, \$305,000 to JRI)
+    2018-2021
+-   NSF: “The genetics of highland adaptation in maize” (PI, \$4,100,000
+    to JRI), 2016-2021
+-   UC-Mexico Initiative: “Maize adaptation to climate in Mexico” (PI,
+    \$30,000 to JRI), 2015-2016
+-   Mars Corp: “Mechanisms of nitrogen fixation” (collaborator,
+    $\approx$\$75K to JRI), 2014-2017
+    
+#### Other Currently Active Grants (1)
+-   NSF: “Biology of Rare Alleles” (Co-PI, \$3.2M to JRI), 2013-2019
+
+#### Invited Seminars (17)
+
+-   National Science Foundation, Washington DC, Sept 2018
+-   U. Georgia, Athens, Aug 2018
+-   Fisher Biosciences, Santa Clara, July 2018
+-   Corteva Agriscience, Johnston, July 2018
+-   Plenary Speaker, Maize Genetics Conference, Saint-Malo, France, Mar
+    2018
+-   University of Paris-Saclay, Gif-sur-Yvette, France, Mar 2018
+-   U. California, Davis, Mar 2018
+-   Plant And Animal Genome Conference (two workshops), San Diego, Jan
+    2018
+-   U. Nebraska, Lincoln, Nov 2017
+-   U. Colorado, Boulder, Oct 2017
+-   SMBE structural variation symposium, San Antonio, July 2017
+-   Harris Moran Breeding, Davis, Feb 2017
+-   SMBE domestication symposium, Queensland, Australia, July 2016
+-   U. Arizona, Tucson, Apr. 2016
+-   Joint Genome Institute, Walnut Creek, Mar. 2016
+-   U. Southern California, Los Angeles, Feb. 2016
+-   LANGEBIO, Irapuato, Mexico, Nov. 2015
+
+#### Publications  
+
+[Google Scholar](https://scholar.google.com/citations?user=5SzRq1oAAAAJ&hl=en&authuser=1) H-Index 35 (5935 citations as of Aug 21 2018; 2696
+citations in 2016-2018)
+
+Lab members shown in bold, $^*$equal contribution, $^\ddagger$undergraduate, $^\S$corresponding, number of citations in [ ]. Click on a triangle for a brief summary of each paper, including author contributions. 
+
+#### Peer Reviewed Journal Articles (23)
+
+##### 2015
+
+- <details>     <summary>[The genomic impacts of drift and selection for hybrid performance in maize](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CC0QFjABahUKEwiY8ezQoa3IAhWRL4gKHYbZCYU&url=http%3A%2F%2Fwww.genetics.org%2Fcontent%2Fearly%2F2015%2F09%2F18%2Fgenetics.115.182410.abstract&usg=AFQjCNF6HUbfJ3ij4yqX75WFIP7h0VqD8g&sig2=7Gw1t6U1cc7imLVZEUWlHQ)  
+Gerke JP, Edwards JW, Guill KE, **Ross-Ibarra J**, McMullen MD   
+Genetics 201: 1201-1211  </summary>     <p style="margin-left: 30px">We show how modern hybrid breeding approahces impact diversity across the genome. Using the Iowa Stiff Stalk synthetic population as an example, we track diversity across 16 generations of selection and compare with simulations.  We show the vast majority of the changes in diversity observed can be explained by drift, but that fixation of large haplotypes, likley including considerable linked load, leads to selection for complementation in the recirpical populations. This work provided some of the first population genetic evidence supporting the complenmentaton model of hybrid vigor.  **JRI is corresponding author and performed analyses and co-wrote the paper with JG.** </p></details> 
+
+##### 2016
+
+- <details>     <summary>[Genome sequence of a 5310-year-old maize cob provides insights into the early stages of maize domestication](<http://www.cell.com/current-biology/abstract/S0960-9822(16)31120-4>)  
+Ramos-Madrigal J, Smith BD, Moreno-Mayar JV, Gopalakrishnan S, **Ross-Ibarra J**, Gilbert MTP, Wales N  
+Current Biology 26:3195-3201 [12]  </summary>     <p style="margin-left: 30px">The genome sequence of a 5,000 year old maize cob reveals it was partially domesticated and helps identify the timing of adaptation during domestication. **JRI helped plan and supervise analyses, edited the paper.**</p></details>  
+
+- <details>     <summary>[Evolutionary genomics of peach and almond domestication](http://www.g3journal.org/content/6/12/3985.short?rss=1&ssource=mfr)        
+ **Velasco D**, **Hough J**, Aradhya M, **Ross-Ibarra J**   
+ G3 6:3985-3993 [12]  </summary>     <p style="margin-left: 30px">Resequencing data from a number of peach and almond varieties show differences in population size and mating system, but little evidence for convergent selection during domestication. **JRI is corresponding author, planned and supervised analyses, co-wrote the paper with DV.**</p></details>  
+- <details>     <summary>[ANGSD-wrapper: utilities for analyzing next generation sequencing data](http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12578/full)   
+**Durvasula A**, Hoffman PJ, **Kent TV**, Liu C, Kono TJY, Morrell PL, **Ross-Ibarra J**   
+Molecular Ecology Resources 16:1449-1454 [3]  </summary>     <p style="margin-left: 30px">We provide a set of scripts and configuration files to facilitate easy popgen analysis of short-read sequencing data. **JRI is corresponding author. JRI conceived of and planned the project, wrote the preliminary code base, planned and contributed additional code, and co-wrote the paper with AD, PJH, and PLM.**</p></details>  
+
+- <details>     <summary>[Recent demography drives changes in linked selection across the maize genome](http://rdcu.be/kHEB)  
+**Beissinger TM**, Wang L, **Crosby K**, **Durvasula A**, Hufford MB, **Ross-Ibarra J**  
+Nature Plants 2:16084 [31]  </summary>     <p style="margin-left: 30px">We find little evidence for widespread hard sweeps in maize or teosinte and show that differences in demography during maize domestication and subsequent expansion have have changed the impacts of linked selection on surrounding diversity in the maize genome. **JRI is corresponding author. JRI formulated conceived of and planned the project, contributed to and supervised analyses, and co-wrote the paper with TMB.**</p></details>  
+
+- <details> <summary>[Maize diversity associated with social origin and environmental variation in southern Mexico](http://www.nature.com/hdy/journal/vaop/ncurrent/full/hdy201610a.html)  
+Orozco-Ramírez Q, Santacruz-Varela A, **Ross-Ibarra J**, Brush S  
+Heredity 116:477-484. [12]</summary>     <p style="margin-left: 30px">We show that cultural barriers such as language contribute more to genetic structure of maize landraces in Chiapas than do environmental features such as altitude. **JRI supervised analyses and co-wrote the paper with QOR and SB**</p></details>   
+
+- <details>     <summary>[High quality maize centromere 10 sequence reveals evidence of frequent recombination events](http://journal.frontiersin.org/article/10.3389/fpls.2016.00308/full)  
+Wolfgruber TK, Nakashima MM ...(5 authors)... **Bilinski P**, Dawe RK, **Ross-Ibarra J**, Birchler JA, Presting G   
+Frontiers In Plant Science 7 [12]
+</summary>     <p style="margin-left: 30px">We present the first complete draft of a maize centromere. **JRI and PB contributed data and analysis of pacbio reads.**</p></details>  
+
+##### 2017
+
+- <details>
+    <summary>[Construction of the third generation *Zea mays* haplotype map](https://academic.oup.com/gigascience/advance-article/doi/10.1093/gigascience/gix134/4782225?searchresult=1)   
+Bukowski R ...[16 authors]...  **Ross-Ibarra J**, **Lorant A**, **Buffalo V**, Romay MC, Buckler ES, Ware D, Lai J, Sun Q, Xu Y    
+GigaScience gix134 [19]  </summary>
+    <p style="margin-left: 30px">We present a SNP dataset of 80M variants from a sample of 1200 maize and teosinte genomes. **JRI supervised sequencing of some of the lines as well as analyses that helped determine methodologies for SNP calling.**
+</p></details> 
+
+- <details>
+    <summary>[The interplay of demography and selection during maize domestication and diffusion](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1346-4)   
+Wang L, **Beissinger TM**, **Lorant A**, **Ross-Ibarra C**, **Ross-Ibarra J**, Hufford MB  
+Genome Biology 18:215 [13]  </summary>
+    <p style="margin-left: 30px">We show how population bottlenecks and gene flow have shaped patterns of genetic load across the maize genome and among populatons. **JRI is co-corresponding author, supervised generation of data, contributed to and supervised analysis, and co-wrote the paper with LW and MBH**
+</p></details> 
+
+- <details>
+    <summary>[Incomplete dominance of deleterious alleles contribute substantially to trait variation and heterosis in maize](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007019)  
+**Yang J**, **Mezmouk S**, Baumgarten A, Buckler ES, Guill KE, McMullen MD, Mumm RH, **Ross-Ibarra J**  
+PLoS Genetics 13:e1007019 [9]  </summary>
+    <p style="margin-left: 30px">We combine phenotypic data from crosses between multiple maize inbred lines and genome-wide characterization of deleterious alleles to show that a simple model of incomplete dominance may help explain hybrid vigor. **JRI is corresponding author, convceived of and planned the original project, supervised and contributed to analyses, and co-wrote the paper with JY.**
+</p></details> 
+
+- <details>
+    <summary>[The potential role of genetic assimilation during maize domestication](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184202)  
+**Lorant A**, Pedersen, S, Holst I, Hufford MB, Winter K, Piperno D, **Ross-Ibarra J**  
+PLoS ONE 12:e0184202 [1]  </summary>
+    <p style="margin-left: 30px">Gene expression data from  maize and teosinte grown in mid-Holocene environments suggests that for some genes plastic changes in expression may have preceded genetic changes during domestication. **JRI is corresponding author.  JRI conceived of and planned the project, supervised generation and analysis of data, and co-wrote the paper with AL.**
+</p></details>   
+
+- <details>
+    <summary>[Allele specific expression analysis identifies regulatory variation associated with stress-related genes in the Mexican highland maize landrace Palomero Toluqueño](https://peerj.com/articles/3737/) [[preprint](http://biorxiv.org/content/early/2017/06/20/152397)]  
+Aguilar-Rangel MR, Chávez Montes RA,  Gonzalez-Segovia E, **Ross-Ibarra J**, Simpson JK, Sawers RJH  
+PeerJ 5:e3737 [2]
+  </summary>
+    <p style="margin-left: 30px">We identify genes showing allele-specific expression differences in a highland-adapted maize landrace. **JRI advised analyses and co-wrote the paper with ARMR and RJHS.** 
+</p></details> 
+
+- <details>
+    <summary>[Genomic estimation of complex traits reveals ancient maize adaptation to temperate North America](http://science.sciencemag.org/content/357/6350/512.full)  
+Swarts K, Gutaker RM ...[**Ross-Ibarra J** and 14 authors in alphabetical order]... Krause J, Matson RG, Weigel D, Buckler ES, Burbano HA  
+ Science 357:512-515 [17]  </summary>
+    <p style="margin-left: 30px">Maize as a staple food crop in temperate North America required adaptation to a shorter growing season. On its first introduction in the southwestern United States ∼4000 years ago, maize was extensively grown in the lowlands. Cultivation in the temperate uplands did not occur for another 2000 years. Swarts et al. used ancient DNA data from 1900-year-old maize cobs found in a temperate cave in the southwestern United States and mapped the ancient flowering phenotype. The ancient maize samples were marginally adapted to temperate regions as a result of selection on standing variation.  **JRI provided data, advised on analyses.** 
+</p></details> 
+
+- <details>
+    <summary>[How to make a domesticate](http://www.sciencedirect.com/science/article/pii/S0960982217307856)  
+**Stetter MG**, **Gates DJ**, **Mei W**, **Ross-Ibarra J**  
+ Current Biology 27:R896-R900 [3]  </summary>
+    <p style="margin-left: 30px">A perspective that seeks to predict what factors influence the success of domestication, how many genes contributed to the process, where these genes originated and the implications for de novo domestication. **JRI conceived of the idea and co-wrote the paper with MGS.**
+</p></details> 
+
+- <details>
+    <summary>[Improved maize reference genome with single-molecule technologies](http://www.nature.com/nature/journal/vaop/ncurrent/full/nature22971.html)   
+Jiao Y, Peluso P, Shi J, Liang T, **Stitzer MC**, ...[18 authors]... **Ross-Ibarra J**, Dawe K, Hastie A, Rank DR, Ware D  
+Nature 546:524-527 [98]  </summary>
+    <p style="margin-left: 30px">We present a high-quality long-read reference genome of the maize inbred B73 and the first detailed annotation of retroelements in any grass species. **JRI supervised annotation of transposable elements and co-wrote the paper with JY and KD.**
+</p></details> 
+
+- <details>
+    <summary>[Gene fractionation and function in the ancient subgenomes of maize](https://academic.oup.com/mbe/article/34/8/1825/3742530/Gene-Fractionation-and-Function-in-the-Ancient?guestAccessKey=391f8f04-5fd6-4bc7-bac0-0057fb3102ab)    
+**Renny-Byfield S**, Rodgers-Melnick E, **Ross-Ibarra J**  
+MBE 34:1825-1832 [10]  </summary>
+    <p style="margin-left: 30px">We show that the two subgenomes of maize differentially contribute to functional variation in phenotypes. **JRI is corresponding author, supervised analysis, and co-wrote the paper with SRB.**
+</p></details> 
+
+- <details>
+    <summary>[Genomic abundance is not predictive of tandem repeat localization in grass genomes](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177896)      
+**Bilinski P**, Han Y, **Hufford MB**, **Lorant A**,  Zhang P, Estep MC, Jiang J, **Ross-Ibarra J**  
+PLoS ONE 12:e0177896 [0]  </summary>
+    <p style="margin-left: 30px">We show that short read sequence data allows discovery of novel tandem repeats in grass species but, unlike many other species, the most abundant repeat is frequently not centromeric. **JRI supervised analysis and co-wrote the paper with PB.**
+</p></details>    
+
+
+##### 2018
+
+- <details>
+    <summary> Evolutionary responses to conditionality in species interactions across environmental gradients     
+**O'Brien AM**, Sawers RJH, **Ross-Ibarra J**, Strauss SY  
+American Naturalist *In Press*  </summary>
+    <p style="margin-left: 30px">We present a novel hypothesis which describes how patterns of biotic coadpation change across varying abiotic environments. **JRI contributed to formulation of the hypothesis and writing the paper.** 
+</p></details> 
+
+- <details>
+    <summary>[Maize domestication and gene interaction](https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.15350)  
+    **Stitzer MC**, **Ross-Ibarra J**  
+    New Phytologist In Press [1]  
+</summary>
+    <p style="margin-left: 30px">We review genetic work looking at the role of dominance, epistasis, and pleiotropy during maize domestication. **JRI co-wrote the paper with MCS.**
+</p></details> 
+
+- <details>
+    <summary>[A novel maize kinesin causes neocentromere activity and meiotic drive, altering inheritance patterns across the genome](http://www.cell.com/cell/fulltext/S0092-8674(18)30289-7)  
+Dawe RK, Lowry EG, Gent JI, **Stitzer MC**, Higgins DM,  **Ross-Ibarra J**, Wallace J, Kanizay LB ... [7 authors]  
+Cell 173: 839-850. [3]  </summary>
+    <p style="margin-left: 30px">We identify a small gene family Kindr as the causal locus for meiotic drive in maize. **JRI supervised population genetic analysis, advised on additional genetic analyses, and co-wrote the paper with RKD, JIG, and MCS.**
+</p></details>  
+
+- <details>
+    <summary>[Parallel altitudinal clines reveal adaptive evolution of genome size in *Zea mays*](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007162)   
+**Bilinski P**, Albert P, Berg JJ, Birchler JA, Grote M, **Lorant A**, **Quezada J**, Swarts K, **Yang J**, **Ross-Ibarra J**  
+ PLoS Genetics 14: e1007162 [8]  </summary>
+    <p style="margin-left: 30px">We show that genome size can be analyzed as a quantitative trait and that selection on flowering time in maize has likely driven adaptive changes in genome size along multiple altitudinal clines. **JRI is corresponding author, conceived of and planned the project, supervised analyses, and co-wrote the paper with PB.**
+</p></details> 
+
+- <details>
+    <summary>[Adaptation in plant genomes: bigger is different](https://onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1002)   
+**Mei W**, **Stetter MG**, **Gates DJ**, **Stitzer MC**, **Ross-Ibarra J**  
+American Journal of Botany 105: 16-19 [6]  </summary>
+    <p style="margin-left: 30px">We develop the functional space hypothesis in which we posit that adaptation in large genomes uses more noncoding variation and is more likely to proceed via soft sweeps. **JRI conceived of the hypothesis, supervised analyses, and co-wrote the paper with MW**</p></details>  
+
+- <details>
+    <summary>[Harnessing cross-border resources to confront climate change](https://www.sciencedirect.com/science/article/pii/S1462901117310602)    
+Aburto-Oropeza O ...[**Ross-Ibarra J** and 85 authors in alphabetical order]... Taylor JE  
+Environmental Science and Policy In Press. [0]  </summary>
+    <p style="margin-left: 30px">Discusses the challenges of changing climates pose for society and the environment along the Mexican-US border.  **JRI contributed text to the initial draft of the paper.**</p></details>  
+
+#### Book Chapters (2)
+
+##### 2018 
+- <details>
+    <summary>Evolution and Adaptation in the Maize Genome  
+Manchanda N, Snodgrass SJ, **Ross-Ibarra J**, Hufford MB   
+In The Zea mays Genome, Bennetzen, Flint-Garcia, Hirsch, Tuberosa (Eds.), Springer Nature Publishing In Press [0]  
+</summary>
+    <p style="margin-left: 30px">We review progress thus far in genomic research of maize domestication and adaptation. We discuss the insights genomics has shed on our understanding of these processes and conclude with a future outlook for how genomics might be further applied.  **JRI co-wrote the paper with MN, SJ, and MBH**
+</p></details> 
+
+- <details>
+    <summary>Genomics of long- and short- term adaptation in maize and teosinte  
+**Lorant A**, **Ross-Ibarra J**, Tenaillon M  
+ In Statistical Population Genomics, Dutheil (Ed.), Springer Nature Publish- ing In Press [0]  
+</summary>
+    <p style="margin-left: 30px">We review studies on short and long term adaptation, both natural and artificial, in maize and teosinte.  **JRI co-wrote the paper with AL and MT.**
+</p></details> 

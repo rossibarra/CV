@@ -1,0 +1,467 @@
+%%%%%% Stuff to add:
+% invited (declined) seminars
+% extending knowledge: reporters, master gardner, etc.
+
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{etaremune}
+%\usepackage{eurofont}
+\usepackage{verbatim}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+%\usepackage{setspace}
+% Set your name here
+\def\name{Jeffrey Ross-Ibarra}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{https://github.com/rossibarra/CV/blob/master/CV.pdf?raw=true}
+
+%Add in-line comments
+\newcommand{\ignore}[1]{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {population genetics, maize, plant evolution},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+%\ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+%ADDRESS
+\begin{minipage}{0.55\linewidth}
+  \href{http://www.plantsciences.ucdavis.edu/plantsciences/}{Department of Plant Sciences}\\
+  \href{http://cpb.ucdavis.edu/}{Center for Population Biology}\\
+  \href{http://www.genomecenter.ucdavis.edu/}{Genome Center}\\
+  \href{http://www.ucdavis.edu/}{University of California Davis} \\
+%  1 Shields Ave.\\
+%  Davis, CA 95616
+\end{minipage}
+\begin{minipage}{0.35\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (530) 752-1152 \\
+    Fax: &  (530) 752-4604 \\
+    Email: & \href{mailto:rossibarra@ucdavis.edu}{rossibarra@ucdavis.edu} \\
+    Web: & \href{http://www.rilab.org/}{www.rilab.org}, \href{http://www.twitter.com/jrossibarra/}{@jrossibarra} \\
+  \end{tabular}
+\end{minipage}
+
+
+%AWARDS
+\section*{Honors and Awards}
+\setlength\itemsep{0ex}
+\begin {itemize}
+\setlength\itemsep{0ex}
+%\item Corn Pun Trophy, Genetics Society of America 2017
+\item Stadler Mid-Career Excellence in Maize Genetics Award 2016
+\item Faculty Development Award in recognition of university service 2015
+\end{itemize}
+
+%\begin{comment}
+%INSTRUCTION & Advising
+\section*{Teaching and Advising}
+\subsection*{Instruction}
+\begin{itemize}
+\item Instructor, Frontiers and Techniques in Plant Science, CSHL, July 2015
+\item Genetics (UC Davis, BIS 101, undergraduate), 2013-2018
+\item Ecological Genomics (UC Davis, ECS243, graduate), 2014-2018
+\item Faculty advisor, Pioneer Hi-Bred/CAES graduate student symposium in plant breeding, 2012-2018
+\item Faculty advisor, US-Mexico graduate student exchange program, 2011-2015
+\item Guest lecturer, Plant Biology Core Course, guest lecturer, Fall 2015
+\end{itemize}
+%\end{comment}
+
+\subsection*{Advising}
+\begin{itemize}
+\setlength\itemsep{0ex}
+\item Postdoctoral:
+\begin{itemize}
+\item blah
+\end{itemize}
+\item Graduate:
+\begin{itemize}
+\item Paul Bilinski (Graduated, currently faculty at )
+\end{itemize}
+\item Dissertation Committees:
+\begin{itemize}
+  \item blah
+  %Kristin Lee (phd, Coop)
+  %chad jorgensen (phd, dvorak)
+  %Quetzal Orozco (phd, steve brush)
+  %David O'Donnell (phd, Alan Bennet)
+  %Gitanshu Munjal (phd, Charlie Brummer)
+  %Jeremy Berg (phd, Coop)
+\end{itemize}
+\item Undergraduate:
+\end{itemize}
+
+% advisees: 5 (16) postdoc, 4 (7) graduate, 2 (28) undergraduate
+
+%Thesis Current:
+%Erin Calfee (phd, coop)
+%Mitchell Feldman (phd, knapp)
+%MMengyuan Xiao (phd, Dvorak)
+
+%Thesis Former:
+%Kristin Lee (phd, Coop)
+%chad jorgensen (phd, dvorak)
+%Quetzal Orozco (phd, steve brush)
+%David O'Donnell (phd, Alan Bennet)
+%Gitanshu Munjal (phd, Charlie Brummer)
+%Jeremy Berg (phd, Coop)
+%Jason Corwin (phd Kliebenstein)
+% Michelle Curtis (ms, St. Clair)
+
+%ADVISING
+%\section*{Current Advising}
+%\begin{itemize}
+
+%\item PhD Dissertation Committee: Hasan Alhaddad (2013, Genetics), Jason Corwin (Plant Biology), Chad Jorgensen (2017, Hort \& Agronomy), Quetzal Orozco (2016, Anthropology), Jane Park (Genetics), Mengyuan Xiao (Genetics)
+%\item QE Exam Committee: Jeremy Berg (PopBio), Yoong Wearn Lim (Genetics), Stella Hartono (Genetics), Alisa Sedghifar (Pop Bio), Libby Karn (Plant Biology), Gavin Rice (Genetics), 1MS student (Genetics), Colin Contino (PopBio 2015), Perot (Genetics 2015), Kristin Lee (PopBio 2015), Daniela Rodriguez-Zaccaro (plant bio 2018), Susan Moenga (Genetics 2017)
+%\item MS Thesis Committee: Joanne Heraty (International Ag. & Development), Michelle Curtis (Genetics)
+%\item Advisees:
+%	\begin {itemize}
+%		\item postdoctoral
+%			\begin {itemize}
+%				\item Joost van Heerwaarden
+%				\item Sofiane Mezmouk
+%				\item Dan Gates
+%				\item Tanja Pyh\"aj\"arvi
+%				\item Matthew Hufford
+%				\item Shohei Takuno
+%				\item Suja George
+%				\item Sayuri Tsukahara
+%				\item Kate Crosby
+%				\item Simon Renny-Byfield
+%				\item Jinliang Yang
+%				\item Luis Avila Bolivar
+%				\item Emily Josephs
+%				\item Josh Hough
+%				\item Wenbin Mei
+%       \item Markus Stetter
+%			\end {itemize}
+%   \item visiting students
+%     \begin{itemize}
+%       \item Leo Zeitler
+%      \end{itemize}
+%		\item visiting postdoc
+%			\begin {itemize}
+%				\item Ginnie Morrison
+%       \item Rute Fonseca
+%			\end {itemize}
+%    \item visiting scientist
+%			\begin {itemize}
+%				\item Peter Tiffin
+%        \item Norm Ellstrand
+%        \item Peter Morrell
+%        \item Eric Fuchs
+%			\end {itemize}
+%		\item graduate
+%			\begin {itemize}
+%				\item Dianne Velasco (Genetics)
+%				\item Anna O'Brien (Pop Bio)
+%       \item Anne Lorant (France)
+%				\item Paul Bilinski (Plant Bio)
+%				\item Michelle Stitzer (Pop Bio)
+%       \item Asher Hudson (Pop Bio)
+%       \item Sarah Odell (Plant Bio)
+%			\end {itemize}
+%		\item undergraduate
+%			\begin {itemize}
+%				\item Lauryn Brown <-Vann
+%				\item Nikhil Ghopal <- JRI
+%				\item Thomas Kono <-JRI
+%				\item Pui Yan Ho <- Hufford
+%				\item Michael May <-JRI
+%				\item Evan Pellerin <-JRI
+%				\item Lauren Sagara <-JRI
+%				\item Casper Thommes <-JRI
+%				\item Shobhana Rajasenan <-JRI
+%				\item Michael Devengenzo <-Hufford
+%				\item Tyler Kent <- JRI
+%				\item Timothy Yang <-JRI
+%				\item Nivaz Brar <-Inagaki
+%				\item Ali Khavari <-Stitzer
+%				\item Kevin Distor <- Bilinski
+%				\item Chris Fiscus <-JRI
+%				\item Gitanshu Munjal <-Beissinger
+%				\item Sid Badhra-Lobo <-JRI
+%				\item Arun Durvasula <-JRI
+%				\item Juvenal Quezada <- Bilinski
+%				\item Olivia Jackson <- Obrien
+%       \item Kevin Boardman <- Obrien
+%       \item Ellen Osborn <- Stitzer
+%       \item Brandon Kung <- Stitzer
+%       \item Niki M <- Gates
+%       \item Scotty M? <- JRI
+%       \item Tanmayee Khadilkar <- Stitzer
+%        \item Nathaniel Langlois <- JRI
+%			\end {itemize}
+%		\item graduate student exchange program
+%			\begin {itemize}
+%				\item Jorge Alberto
+%				\item Gabriela Mendoza
+%				\item Aurelio Hernandez Bautista
+%				\item Cesar Alvarez
+%				\item Pablo Andres
+%				\item Jose Gutierrez-Lopez
+%        \item Eric Gonzalez
+%        \item Chio Aguilar
+%				\item Aldo Carmona
+%				\item Antonio Hernandez
+%			\end {itemize}
+%		\end {itemize}
+%\end{itemize}
+
+%PROFESSIONAL SERVICE
+\section*{Service: selected from last 2 years}
+\begin{itemize}
+\setlength\itemsep{0ex}
+\subsection*{Department}
+\item Section Chair for Agricultural Plant Biology, 2014-2018
+\item Plant Sciences executive committee, 2014-2018
+\item Dept. of Plant Sciences academic planning committee, 2010-2016, 2018
+\item Hatch/AES review, Plant Sciences 2018
+\item Junior faculty mentor committee, Plant Sciences, 2017 %Brown
+\item Member, search committee on Climate Adaptation, 2017
+
+\subsection*{College}
+\item College review, NSF limited submission, 2018
+\item Chair, Search Committee for Dept. Chair of Plant Sciences, 2016
+
+\subsection*{University}
+\item Campus Disciplinary Peer Review committee on sexual violence and sexual harassment, 2017-2018
+\item Campus Task Force on Bioinformatics, 2017-2018
+\item Campus High Performance Computing Advisory Committee, 2016-2018
+\item Genome Center Bioinformatics Core Advisory Board, 2016
+\item UC Davis representative, UC-Mexico Initiative committee on the environment, 2014-2016
+\item Admissions committees: Population Biology, 2015; Ecology, 2015
+
+\subsection*{Professional}
+\item Maize Genetics Steering Committee, 2018
+\item Maize Genetics Awards Committee, 2017
+\item \href{https://peerj.com/rossibarra/}{Advisory Board, PeerJ Preprints, 2016-2018}
+\item External search committee, Dept. Plant Biology, Swedish University of Agricultural Sciences (2016)
+\item Editorial Boards (manuscripts handled during review period in parentheses):
+\begin{itemize}
+\item \href{http://www.g3journal.org/content/editorial-board-0}{Senior Editor, Genes, Genomes, and Genetics, 2017-2018 (110)}
+\item \href{http://www.g3journal.org/content/editorial-board-0}{Associate Editor, Genes, Genomes, and Genetics, 2014-2018 (36)}
+\item \href{https://peerj.com/sections/plant-biology/}{Senior Editor, PeerJ, 2018 (unknown, >10)}
+\item \href{https://peerj.com/rossibarra/}{Academic Editor, PeerJ, 2013-2018 (11)}
+\item Associate Editor, Genetics, 2018 (1)
+\item \href{http://journals.plos.org/plosgenetics/s/editorial-board}{Associate Editor, PLoS Genetics, 2018 (2)}
+\item Guest Editor, PLoS Genetics, 2016-2017 (2)
+\item Editor, Axios Reviews (now defunct), 2013-2017 (2)
+\item Guest Editor, PNAS, 2018 (1)
+\item Guest Editor, eLife, 2016 (1)
+\end{itemize}
+\item Journal peer review: 33 papers during review period, including for Nature, Cell, Nature Genetics, Nature Communications, Nature Plants, PNAS, Plant Cell, eLife, Genome Research, Trends in Plant Science, and Current Biology
+\end{itemize}
+
+\subsection*{Public Outreach}
+\begin{itemize}
+  \item \href{https://www.cityofwoodland.org/Calendar.aspx?EID=1308&month=8&year=2018&day=30&calType=0}{Woodland Public Library Science \& Society Discussion Series}, Aug 2018
+  \item Skype A Scientist: 6 presentations to public K-12 classrooms in the US (4 states) and Spain (in Spanish), 2017-2018
+  \item \href{https://plantae.org/taproot-podcast-s1e6-population-genetics-authorship-lists-worklife-balance-and-raining-cockroaches-with-jeffrey-ross-ibarra/}{TapRoot podcast episode on authorship and work/life balance}, Aug 2017
+  \item \href{https://capscicomm.org/tag/jeffrey-ross-ibarra/}{Davis Science Cafe}, Aug 2016
+  \item UC Master Gardeners, May 2016
+\end{itemize}
+
+\section*{Research}
+%CURRENT FUNDING
+\subsection*{New Grants}
+\begin{itemize}
+\setlength\itemsep{0ex}
+\item NSF: ``The Evolutionary Genetics of Pollen-Pistil Incompatibility and Reproductive Isolation in \textit{Zea mays}'' (CoPI, \$305,000 to JRI) 2018-2021
+\item NSF: ``The genetics of highland adaptation in maize'' (PI, \$4,100,000 to JRI), 2016-2021
+\item UC-Mexico Initiative: "Maize adaptation to climate in Mexico" (PI, \$30,000 to JRI), 2015-2016
+\item Mars Corp: ``Mechanisms of nitrogen fixation'' (collaborator, $\approx$\$75K to JRI), 2014-2017
+\end{itemize}
+
+\subsection*{Other Currently Active Grants}
+\begin{itemize}
+\item NSF: ``Biology of Rare Alleles'' (Co-PI, \$3.2M to JRI), 2013-2019
+\end{itemize}
+
+%SEMINARS
+\subsection*{Invited Seminars}
+\begin{itemize}
+\setlength\itemsep{0ex}
+%\item FASEB Mobile Elements, 2019 (declined)
+%\item Plenary Speaker, National Maize Biology Conference, Qindao, China (declined)
+\item National Science Foundation, Washington DC, Sept 2018
+\item U. Georgia, Athens, Aug 2018
+\item Fisher Biosciences, Santa Clara, July 2018
+%\item Texcoco pioneer symposium Sept. 2018 (declined)
+\item Corteva Agriscience, Johnston, July 2018
+\item Plenary Speaker, Maize Genetics Conference,  Saint-Malo, France, Mar 2018
+\item University of Paris-Saclay, Gif-sur-Yvette, France, Mar 2018
+\item U. California, Davis, Mar 2018
+\item Plant And Animal Genome Conference (two workshops), San Diego, Jan 2018
+%\item Plant And Animal Genome Conference (big data) (declined), Jan 2018
+\item U. Nebraska, Lincoln, Nov 2017
+\item U. Colorado, Boulder, Oct 2017
+\item SMBE structural variation symposium, San Antonio, July 2017
+\item Harris Moran Breeding, Davis, Feb 2017
+%\item PAG next-generation sequencing symposium, Jan 2017 (declined)
+%\item VI Brazilan Plant Molecular Genetics symposium, Ouro Preto, Brazil, May 2017 (declined)
+\item SMBE domestication symposium, Queensland, Australia, July 2016
+\item U. Arizona, Tucson, Apr. 2016
+\item Joint Genome Institute, Walnut Creek, Mar. 2016
+\item U. Southern California, Los Angeles, Feb. 2016
+\item LANGEBIO, Irapuato, Mexico, Nov. 2015
+
+\end{itemize}
+
+
+
+%PUBS
+\subsection*{Publications {\small(lab members bold, $^*$equal contribution, $^\ddagger$undergraduate, $^\S$corresponding, citations in [])}}
+H-Index 21 {\small(5935 citations as of Tue Aug 21 14:45:57 2018; 2,696 citations in 2016-2018)}
+
+%PRINT/PRESS
+\subsubsection*{Peer Reviewed Journal Articles} %don't edit below line on H-index, use script instead
+\begin{etaremune}
+\setlength\itemsep{0ex}
+
+\item \textbf{O'Brien A}$^\S$, Sawers R, \textbf{Ross-Ibarra J}, Strauss  SY$^\S$ (2018) Evolutionary responses to conditionality in species interactions across environmental gradients. \textsc{American Naturalist} \textit{Accepted}
+ [2]\\
+
+\item \textbf{Stitzer MC}, \textbf{Ross-Ibarra J} (2018) Maize domestication and gene interaction. \textsc{New Phytologist} \textit{In Press}
+ [1]\\
+
+
+
+\item Dawe RK, Lowry EG, Gent J, \textbf{Stitzer MC}, Higgins DM, \textbf{Ross-Ibarra J}, Wallace JG, Kanizay L, Alabady M, Wang N, Gao Z, Birchler J, Harkess AE, Hodges AL, Hiatt EN (2018) A novel maize kinesin causes neocentromere activity and meiotic drive, altering inheritance patterns across the genome. \textsc{Cell} 173: 839-850.
+ [3]\\
+
+\item  Aburto-Oropeza O, Johnson A, Agha M, Allen E,  Allen M,  Gonz\'{a}lez JA, Arenas-Moreno DM, Beas R, Butterfield H, Caetano G, Caselle J, Caste\~{n}ada Gayt\'{a}n G, Castorani MCN, Anh Cat L, Cavanaugh K, Chambers JQ, Cooper RD, Arafeh-Dalmau N, Dawson T, Diaz de la Vega A, DiMento JFC, Dom\'{i}nguez S, Edwards M, Ennen J, Estrada-Medina H, Fierro N, Gadsden H, Galina-Tessaro P, Gibbons P, Goode EV, Gorris ME, Harmon T, Hecht SB, Heredia Fragoso MA, Hern\'{a}ndez-Solano A, Hern\'{a}ndez-Cort\'{e}s D, Hern\'{a}ndez-Carmona G, Hillard S, Huey RB, Hufford MB, P\`{a}ramo Figueroa VH, Jenerette D, Jim\'{e}nez-Osornio J, L\'{o}pez-Nava KJ, Lara R, Leslie H, Lopez-Feldman A, Luja V, Mart\'{i}nez-M\'{e}ndez N, Mautz W, Medellin-Azuara J, Mel\'{e}ndez-Torres C, de la Cruz FRM,  Micheli F, Miles D, Montagner G, Monta\~{n}o-Moctezuma G, M\"{u}ller J, Oliva P, Ortinez A, Ortiz Partida JP, Palleiro-Nayar J, Parnell PE, Raimondi P, Ramirez A, Randerson JT, Reed DC, Riquelme M, Torres TR, Rosen PC, {\bf Ross-Ibarra J}, Sanchez-Cordero V, Sandoval-Solis S, Santos J, Sawers R, Sinervo B, Sites J,  Sosa-Nishizaki O, Stanton T, Stapp J, Stewart J, Torre J,  Torres-Moye G, Treseder KK, Valdez-Villavicencio JH, Jim\'{e}nez FIV, Vaughn M, Welton L, Westphal MF, Woolrich-Pi\~{n}a G,  Yunez-Naude A, Zertuche-Gonz\'{a}lez JA, Taylor JE (2018)
+Harnessing Cross-border Resources to Confront Climate Change.  \textsc{Environmental Science and Policy} \textit{In Press}.
+ [0]\\
+
+\item \textbf{Bilinski P}$^\S$, Albert P, Berg JJ, Birchler JA, Grote M, \textbf{Lorant A}, \textbf{Quezada J}$^\ddagger$, Swarts, K, \textbf{Yang J}, \textbf{Ross-Ibarra J}$^\S$ (2018) Parallel altitudinal clines reveal adaptive evolution of genome size in \textit{Zea mays}. \textsc{PLoS Genetics} 14: e1007162
+ [8]\\
+
+
+\item {\bf Mei W}, {\bf Stetter MG}, {\bf Gates DJ}, {\bf Stitzer MC}, {\bf Ross-Ibarra J}$^\S$ (2018) Adaptation in plant genomes: bigger is different.  \textsc{American Journal of Botany} 105: 16-19
+ [6]\\
+
+\item Bukowski R, Guo X, Lu Y, Zou C, He B, Rong Z, Wang B,  Xu D,  Yang B, Xie C,  Fan L, Gao S, Xu X, Zhang G, Li Y, Jiao Y, Doebley J, {\bf Ross-Ibarra J}, {\bf Lorant A}, {\bf Buffalo V}, Romay MC, Buckler ES, Ware D, Lai J, Sun Q , Xu Y (2017) Construction of the third generation \emph{Zea mays} haplotype map. \textsc{GigaScience} gix134
+ [19]\\
+
+\item Wang L, \textbf{Beissinger TM}, \textbf{Lorant A}, \textbf{Ross-Ibarra C}, \textbf{Ross-Ibarra J}$^\S$, Hufford MB$^\S$ (2017) The interplay of demography and selection during maize domestication and diffusion. \textsc{Genome Biology} 18:215
+ [13]\\
+
+\item {\bf Yang J}$^{*\S}$, {\bf Mezmouk S}$^*$, Baumgarten A, Buckler ES, Guill KE, McMullen MD, Mumm RH, {\bf Ross-Ibarra J}$^\S$ (2017) Incomplete dominance of deleterious alleles contribute substantially to trait variation and heterosis in maize. \textsc{PLoS Genetics} 13:e1007019
+ [9]\\
+
+\item \textbf{Lorant A}, Pedersen S, Holst I, Hufford MB, Winter K, Piperno D, \textbf{Ross-Ibarra J}$^\S$ (2017) The potential role of genetic assimilation during maize domestication. \textsc{PLoS ONE} 12:e0184202
+ [1]\\
+
+\item Aguilar-Rangel MR, Ch\`{a}vez Montes RA,  Gonzalez-Segovia E, \textbf{Ross-Ibarra J}, Simpson JK, Sawers RJH (2017) Allele specific expression analysis identifies regulatory variation associated with stress-related genes in the Mexican highland maize landrace Palomero Toluque\~{n}o. \textsc{PeerJ} 5:e3737
+ [2]\\
+
+\item   {\bf Stetter MG}$^\S$, {\bf Gates DJ}, {\bf Mei W}, {\bf Ross-Ibarra J}$^\S$ (2017) How to make a domesticate. \textsc{Current Biology} 27:R896-R900
+ [3]\\
+
+\item Swarts K, Gutaker RM,   Schuenemann V,  Benz B,  Blake M, Bukowski R, Holland J, Kruse-Peeples M, Lepak N, Matson RG, Prim L, Romay C, {\bf Ross-Ibarra J}, Sanchez J, Schmidt C,  Sofro E,  Krause J,  Weigel D,  Buckler ES,  Burbano HA (2017) Genomic estimation of complex traits reveals ancient maize adaptation to temperate North America. \textsc{Science} 357:512-515
+ [17]\\
+
+\item {\bf Bilinski P}$^\S$, Han Y, {\bf Hufford MB}, {\bf Lorant A}, Zhang P, Jiang J, {\bf Ross-Ibarra J}$^\S$ (2017) Diverse origins of high copy tandem repeats in grass genomes. \textsc{PLoS ONE} 12:e0177896
+ [0]\\
+
+\item  Jiao Y, Peluso P,  Shi J,  Liang T, {\bf Stitzer MC}, Wang B,  Campbell M, Stein JC,  Wei X,  Chin C-S,  Guill K,  Regulski M,  Kumari S,  Olson A,  Gent J, Schneider KL,  Wolfgruber TK, May MR, Springer N,  Antoniou E,  McCombie R, Presting GG,  McMullen M, {\bf Ross-Ibarra J}, Dawe RK,  Hastie A, Rank DR, Ware D (2017) Improved maize reference genome with single-molecule technologies. \textsc{Nature}  546:524-527
+ [98]\\
+
+\item  {\bf Renny-Byfield S}$^\S$, Rodgers-Melnick E, {\bf Ross-Ibarra J}$^\S$ (2017) Gene fractionation and function in the ancient subgenomes of maize. \textsc{MBE} 34:1825-1832
+ [10]\\
+
+\item {\bf Velasco D}, Aradhya M, and  and {\bf Ross-Ibarra J}$^\S$ (2016) Evolutionary genomics of peach and almond domestication. \textsc{G3} 6:3985-3993
+ [12]\\
+
+\item Ramos-Madrigal J, Smith BD, Moreno-Mayar JV, Gopalakrishnan S, {\bf Ross-Ibarra J}, Gilbert MTP, Wales N (2016) Genome sequence of a 5310-year-old maize cob provides insights into the early stages of maize domestication. \textsc{Current Biology} 26:3195-3201
+ [12]\\
+
+\item {\bf Durvasula A}$^\ddagger$$^*$,  Hoffman PJ$^*$, {\bf Kent TV}$^\ddagger$, Liu C, Kono TJY, Morrell PL$^\S$, {\bf Ross-Ibarra J}$^\S$ (2016) ANGSD-wrapper. \textsc{Molecular Ecology Resources} 16:1449-1454
+ [3]\\
+
+\item {\bf Beissinger TM}$^\S$, Wang L, {\bf Crosby K}, {\bf Durvasula A}$^\ddagger$, Hufford MB, {\bf Ross-Ibarra J}$^\S$ (2016)  Recent demography drives changes in linked selection across the maize genome. \textsc{Nature Plants} 2:16084
+ [31]\\
+
+\item Wolfgruber TK, Nakashima MM, Schneider KL, Sharma A, Xie Z, Albert PS, Xu R, {\bf Bilinski P},  Dawe RK, {\bf Ross-Ibarra J}, Birchler JA, Presting G (2016) High quality maize centromere 10 sequence reveals evidence of frequent recombination events. \textsc{Frontiers In Plant Science} 7
+ [12]\\
+
+\item Orozco-Ram\`{i}rez Q, Santacruz-Varela A, {\bf Ross-Ibarra J}, Brush B (2016) Maize diversity associated with social origin and environmental variation in southern Mexico. \textsc{Heredity} 116:477-484.
+[12]\\
+
+\item Gerke JP$^\S$, Edwards JW, Guill KE, {\bf Ross-Ibarra J}$^\S$, McMullen MD.  The genomic impacts of drift and selection for hybrid performance in maize (2015). \textsc{Genetics}  201: 1201-1211
+[16]\\
+\end{etaremune}
+
+\subsubsection*{Book Chapters}
+\begin{etaremune}
+  \item Manchanda N, Snodgrass SJ, \textbf{Ross-Ibarra J}, Hufford MB (2018) Evolution and adaptation in the maize genome. \textit{In} \textsc{The Zea mays Genome}, Bennetzen, Flint-Garcia, Hirsch, Tuberosa (Eds.), Springer Nature Publishing \textit{In Press}
+[0]\\
+
+  \item \textbf{Anne Lorant}, \textbf{Ross-Ibarra J}, Maud Tenaillon (2018) Genomics of long- and short- term adaptation in maize and teosinte. \textit{In} \textsc{Statistical Population Genomics},  Dutheil (Ed.), Springer Nature Publishing \textit{In Press}
+  [0]\\
+
+\end{etaremune}
+
+
+\end{document}
