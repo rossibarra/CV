@@ -41,6 +41,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hanging/hanging.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hanging/hanging.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
