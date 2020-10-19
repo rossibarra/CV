@@ -8,8 +8,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
-OUTPUT CV.temp.pdf
-INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -82,6 +80,7 @@ INPUT CV.temp.out
 INPUT ./CV.temp.out
 INPUT ./CV.temp.out
 OUTPUT CV.temp.out
+OUTPUT CV.temp.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
@@ -117,6 +116,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
@@ -174,7 +174,6 @@ INPUT CV.temp.aux
 INPUT ./CV.temp.out
 INPUT ./CV.temp.out
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb
