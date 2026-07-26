@@ -21,8 +21,23 @@ close CITES;
 
 open FILE, "<CV.temp.tex"; 
 open CV, ">CV.tex"; 
+my $in_preprints = 0;
+my $pending_preprint_citation = 0;
 while(<FILE>){ 
-	if($_=~m/^H\-Index/){ 
+	if($_=~m/^\\subsection\*\{Preprints\}/){
+		$in_preprints = 1;
+		print CV $_;
+	}
+	elsif($in_preprints && $_=~m/^\\end\{itemize\}/){
+		$in_preprints = 0;
+		print CV $_;
+	}
+	elsif($in_preprints && $_=~m/^\\item /){
+		$pending_preprint_citation = 1;
+		$_=~s/\\\\\s*$/ /;
+		print CV $_;
+	}
+	elsif($_=~m/^H\-Index/){ 
 		print CV "$h\n"; 
 	} 
 	elsif( $_=~m/CITES/ ){
@@ -41,7 +56,13 @@ while(<FILE>){
 			last if $citecount;
 		}
 #		print CV "\\\\Citations: $citecount\\\\\n";
-		print CV "{} [$citecount]\\\\\n";
+		if($pending_preprint_citation){
+			print CV "[$citecount]\\\\\n";
+			$pending_preprint_citation = 0;
+		}
+		else{
+			print CV "{} [$citecount]\\\\\n";
+		}
 	}
 	else{ 
 		print CV $_;
