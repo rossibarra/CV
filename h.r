@@ -2,7 +2,8 @@
 
 library(methods)
 library(scholar)
-bob<-get_profile("5SzRq1oAAAAJ")
+bob <- get_profile("5SzRq1oAAAAJ")
 paste("{\\small H-Index ", bob$h_index, " (", bob$total_cites, " citations as of ", date(), ")}",sep="")
-bob<-get_publications("5SzRq1oAAAAJ")
-write.table(file="./tempcites.txt",data.frame(bob$cid,bob$cites),row.names=F,quote=F,col.names=F)
+bob <- get_publications("5SzRq1oAAAAJ")
+write.table(file="./tempcites.txt", data.frame(bob$cid, bob$cites), row.names=F, quote=F, col.names=F)
+write.table(file="./scholar_cites.tsv", data.frame(title=bob$title, cites=bob$cites), row.names=F, quote=F, col.names=F, sep="\t")
