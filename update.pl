@@ -29,7 +29,17 @@ while(<FILE>){
 		$_=~m/CITES:(\S+)/;
 		my $tempid=$1; 
 		my $citecount=0;
-		foreach(keys(%cites)){ if( $_ ~~ $tempid){ $citecount=$cites{$tempid}; }}
+		my @tempids = split /,/, $tempid;
+		foreach my $scholar_id (keys(%cites)){
+			my %scholar_ids = map { $_ => 1 } split /,/, $scholar_id;
+			foreach my $id (@tempids){
+				if($scholar_ids{$id}){
+					$citecount=$cites{$scholar_id};
+					last;
+				}
+			}
+			last if $citecount;
+		}
 #		print CV "\\\\Citations: $citecount\\\\\n";
 		print CV "{} [$citecount]\\\\\n";
 	}
