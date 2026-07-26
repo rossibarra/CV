@@ -31,7 +31,7 @@ while(<FILE>){
 		my $citecount=0;
 		foreach(keys(%cites)){ if( $_ ~~ $tempid){ $citecount=$cites{$tempid}; }}
 #		print CV "\\\\Citations: $citecount\\\\\n";
-		print CV " [$citecount]\\\\\n";
+		print CV "{} [$citecount]\\\\\n";
 	}
 	else{ 
 		print CV $_;
