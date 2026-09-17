@@ -91,9 +91,10 @@
 \setlist[itemize]{leftmargin=1.5em,label={},itemsep=0ex,topsep=0.35ex,parsep=0pt,partopsep=0pt}
 
 % Two-column CV row with wrapped left column and right-aligned dates.
-\newcommand{\cvitem}[2]{%
-  \item\begin{tabularx}{\linewidth}{@{}Xr@{}}
-    #1 & #2
+% Optional first argument sets the hanging indent of wrapped lines (default 1.5em).
+\newcommand{\cvitem}[3][1.5em]{%
+  \item\begin{tabularx}{\linewidth}{@{}>{\hangindent=#1\hangafter=1}Xr@{}}
+    #2 & #3
   \end{tabularx}%
 }
 
@@ -812,7 +813,7 @@ Peer Community In Evolutionary Bio (2025-present); bioRxiv affiliate (2021-prese
 
 %PRINT/PRESS
 \subsection*{In press or in print} %don't edit below line on H-index, use script instead
- {\small H-Index 67 (21353 citations as of Thu Sep 17 09:42:20 2026)}
+ {\small H-Index 67 (21353 citations as of Thu Sep 17 09:47:06 2026)}
 
 \begin{etaremune}
 \setlength\itemsep{0ex}
