@@ -89,13 +89,13 @@
 
 % Compact list styling used throughout the CV
 % Wrapped lines of every list item (plain \item and \cvitem alike) hang by \cvhang.
-\newlength{\cvhang}\setlength{\cvhang}{3em}
+\newlength{\cvhang}\setlength{\cvhang}{1.5em}
 \setlist[itemize]{leftmargin=\dimexpr1.5em+\cvhang\relax,itemindent=-\cvhang,label={},itemsep=0ex,topsep=0.35ex,parsep=0pt,partopsep=0pt}
 
 % Two-column CV row with wrapped left column and right-aligned dates.
 % Optional first argument overrides the hanging indent of wrapped lines.
 \newcommand{\cvitem}[3][\cvhang]{%
-  \item\begin{tabularx}{\dimexpr\linewidth+\cvhang\relax}{@{}>{\hangindent=#1\hangafter=1\raggedright\arraybackslash}X@{\hspace{3em}}r@{}}
+  \item\begin{tabularx}{\dimexpr\linewidth+\cvhang\relax}{@{}>{\hangindent=#1\hangafter=1\raggedright\arraybackslash}X@{\hspace{1.5em}}r@{}}
     #2 & #3
   \end{tabularx}%
 }
@@ -492,18 +492,18 @@
 %NSF Feb 2012
 %\item Guest editor, PLoS Genetics, 2014 % also 2012
 %\item External search committee, Dept. Plant Biology, Swedish University of Agricultural Sciences (2016)
-\item Editorial Boards:
-Genes, Genomes, and Genetics Senior (2017-2024), Associate (2014-2024), Guest (2025-present) Editor; %(AE 2014-2019, SE 2017-2019),
+\item Editorial Boards: 
+G3 Senior (2017-2024), Associate (2014-2024), Guest (2025-present); \newline %(AE 2014-2019, SE 2017-2019),
 %New Phytologist Associate Editor (2021-2022),  %2021-present
 %Genetics (Guest Editor) %, 2018),
 Genetics (Primers Editor, 2026-present);
-Peer Community In Evolutionary Bio (2025-present); bioRxiv affiliate (2021-present); eLife Reviewing Editor (2021-2024) %PLoS Genetics Associate Editor (2018-2019),
+Peer Community In Evol. Bio (2025-present); \newline bioRxiv affiliate (2021-present); eLife Reviewing Editor (2021-2024) %PLoS Genetics Associate Editor (2018-2019),
 %PeerJ Senior (2018-2019) and Associate (2013-2021) Editor
 %PNAS Guest  Editor  (2018)
 % eLife (Guest, 2016)
     % axios reviews (2013-2017)
 %\item Grant peer review: NSF \ignore{1/21}
-\item Journal peer review:  \ignore {1/26} Nature, \ignore{10/24} Molecular Ecology, \ignore{10/23,5/24,10/24, 5/25} Science (4),   \ignore{2/24,7/23,9/23,2/24} eLife (4),  Trends in Genetics \ignore{9/21},  \ignore{9/2023} Evolution, \ignore{9/23} Evolutionary Applications, PNAS (4) \ignore{5/24,6/24,10/24,9/25}, Nature Genetics \ignore{7/25},  Nature Communications \ignore{10/24}, \ignore{12/23,8/2023} PLoS Genetics (2), Science Advances \ignore{2/24}, PCI Evol Bio \ignore{6/25}
+\item Journal peer review:  \ignore {1/26} Nature, \ignore{10/24} Molecular Ecology, \ignore{10/23,5/24,10/24, 5/25} Science (4),   \ignore{2/24,7/23,9/23,2/24} eLife (4),  Trends in Genetics \ignore{9/21}, \newline  \ignore{9/2023} Evolution, \ignore{9/23} Evolutionary Applications, PNAS (4) \ignore{5/24,6/24,10/24,9/25}, Nature Genetics \ignore{7/25},   \ignore{12/23,8/2023} PLoS Genetics (2),\newline Nature Communications \ignore{10/24}, Science Advances \ignore{2/24}, PCI Evol Bio \ignore{6/25}
 %Current Biology \ignore{1/22} 
 % Genetics \ignore{10/22},
 % pnas 5/21,1/22,
@@ -601,7 +601,7 @@ Peer Community In Evolutionary Bio (2025-present); bioRxiv affiliate (2021-prese
 \begin{itemize}
   % \item San Francisco Exploratorium, May 2015
 %\cvitem{Podcast and Documentary Interview: Edge Effects% Podcast}{2025}
-\cvitem{Podcast/Documentary Interviews: Edge Effects, Talking Biotech, Breeding Bites, KQED, Eat This}{}
+\cvitem{Podcast/Documentary Interviews: Edge Effects, Talking Biotech, Breeding Bites, KQED, \newline Eat This}{}
 %\cvitem{Talking Biotech podcast}{2025}
 %\cvitem{Corteva ''Breeding Bites'' podcast}{2024}
 %%\cvitem{KQED Documentary ``Your Corn Tortilla Sucks…Science Can Fix It''}{2024}
@@ -910,7 +910,6 @@ H-Index 21 {\small(1549 citations as of Wed Jan 29 11:08:44 2014)}
 
 \item \textbf{Odell SG}, \textbf{Hudson AI}, Praud S, Dubreuil P, Tixier M-H, \textbf{Ross-Ibarra J}, Runcie DE (2022). Modeling allelic diversity of multi-parent mapping populations affects detection of quantitative trait loci. \textsc{G3} 12: jkac011 %doi: 10.1101/2021.07.14.452335
 %CITES:4200777730517717106
-\vspace{0.5cm}
 
 \item Calfee E$^\S$, \textbf{Gates DJ}, \textbf{Lorant A}, \textbf{Perkins MT}, Coop GM$^\S$, \textbf{Ross-Ibarra J}$^\S$ (2021). Selective sorting of ancestral introgression in maize and teosinte along an elevational cline. \textsc{PLoS Genetics} 17: e1009810
 %CITES:6213467718649794463
@@ -934,7 +933,7 @@ H-Index 21 {\small(1549 citations as of Wed Jan 29 11:08:44 2014)}
 %CITES:11265103186217917709,1423804503041853700
 
 \item \textbf{Ross-Ibarra J}, Piperno D (2020). Maize moving. Figshare. doi: 10.6084/m9.figshare.12781307.v1 [1] 
-\newline
+
 
 \item Xu G, Lyu J, Li Q, Liu H, Wang D, Zhang M, Springer NM, \textbf{Ross-Ibarra J}, Yang J (2020). Adaptive evolution of DNA methylation reshaped gene regulation in maize \textsc{Nature Communications} 11: 5539
 %CITES:987817177097090596,14403816878568058683
