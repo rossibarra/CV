@@ -89,13 +89,13 @@
 
 % Compact list styling used throughout the CV
 % Wrapped lines of every list item (plain \item and \cvitem alike) hang by \cvhang.
-\newlength{\cvhang}\setlength{\cvhang}{1.5em}
+\newlength{\cvhang}\setlength{\cvhang}{3em}
 \setlist[itemize]{leftmargin=\dimexpr1.5em+\cvhang\relax,itemindent=-\cvhang,label={},itemsep=0ex,topsep=0.35ex,parsep=0pt,partopsep=0pt}
 
 % Two-column CV row with wrapped left column and right-aligned dates.
 % Optional first argument overrides the hanging indent of wrapped lines.
 \newcommand{\cvitem}[3][\cvhang]{%
-  \item\begin{tabularx}{\dimexpr\linewidth+\cvhang\relax}{@{}>{\hangindent=#1\hangafter=1\raggedright\arraybackslash}X@{\hspace{1.5em}}r@{}}
+  \item\begin{tabularx}{\dimexpr\linewidth+\cvhang\relax}{@{}>{\hangindent=#1\hangafter=1\raggedright\arraybackslash}X@{\hspace{3em}}r@{}}
     #2 & #3
   \end{tabularx}%
 }

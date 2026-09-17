@@ -89,13 +89,13 @@
 
 % Compact list styling used throughout the CV
 % Wrapped lines of every list item (plain \item and \cvitem alike) hang by \cvhang.
-\newlength{\cvhang}\setlength{\cvhang}{1.5em}
+\newlength{\cvhang}\setlength{\cvhang}{3em}
 \setlist[itemize]{leftmargin=\dimexpr1.5em+\cvhang\relax,itemindent=-\cvhang,label={},itemsep=0ex,topsep=0.35ex,parsep=0pt,partopsep=0pt}
 
 % Two-column CV row with wrapped left column and right-aligned dates.
 % Optional first argument overrides the hanging indent of wrapped lines.
 \newcommand{\cvitem}[3][\cvhang]{%
-  \item\begin{tabularx}{\dimexpr\linewidth+\cvhang\relax}{@{}>{\hangindent=#1\hangafter=1\raggedright\arraybackslash}X@{\hspace{1.5em}}r@{}}
+  \item\begin{tabularx}{\dimexpr\linewidth+\cvhang\relax}{@{}>{\hangindent=#1\hangafter=1\raggedright\arraybackslash}X@{\hspace{3em}}r@{}}
     #2 & #3
   \end{tabularx}%
 }
@@ -819,7 +819,7 @@ Peer Community In Evolutionary Bio (2025-present); bioRxiv affiliate (2021-prese
 
 %PRINT/PRESS
 \subsection*{In press or in print} %don't edit below line on H-index, use script instead
- {\small H-Index 67 (21353 citations as of Thu Sep 17 10:01:44 2026)}
+ {\small H-Index 67 (21353 citations as of Thu Sep 17 10:03:04 2026)}
 
 \begin{etaremune}
 \setlength\itemsep{0ex}
